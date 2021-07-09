@@ -210,7 +210,7 @@ class _ProductDetailModalState extends State<ProductDetailModal> {
                 floatingActionButtonLocation:
                     FloatingActionButtonLocation.startTop,
               )
-            : Container());
+            : Center(child: CircularProgressIndicator(),) );
   }
 
   void validate(AppState appState, BuildContext context) {
